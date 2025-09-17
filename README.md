@@ -47,8 +47,7 @@ All end-user UI is in **English**.
 git clone https://github.com/<your-user>/mountadapt.git
 cd mountadapt
 
----
-##   Requirements
+📦 Requirements
 
 Minimal dependencies:
 
@@ -64,11 +63,12 @@ lime
 reportlab         # PDF export
 PyPDF2
 
+
 Install with:
+
 pip install -r requirements.txt
 
----
-##Outputs
+📈 Outputs
 
 Interactive correlations (original vs augmented).
 
@@ -78,8 +78,8 @@ Model comparison table (R², MAE, RMSE).
 
 y_test vs y_pred scatter for best model.
 
-SHAP importance (global) + LIME explanation (individual).
+SHAP global importance + LIME local explanations.
 
 SARIMAX 5-year forecast plots.
 
-Exportable PDF report.
+Exportable PDF report with session results.
